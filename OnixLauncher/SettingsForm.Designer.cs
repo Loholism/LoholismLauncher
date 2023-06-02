@@ -51,7 +51,7 @@
             this.InsiderDescription.Name = "InsiderDescription";
             this.InsiderDescription.Size = new System.Drawing.Size(230, 17);
             this.InsiderDescription.TabIndex = 10;
-            this.InsiderDescription.Text = "This will only work with Onix Client DLLs.";
+            this.InsiderDescription.Text = "This will only work with Loholism Client DLLs.";
             // 
             // TitleBar
             // 
