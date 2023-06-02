@@ -145,7 +145,7 @@ namespace OnixLauncher
             SettingsF.MagicToggle.Checked = CurrentSettings.MagicGradient;
             SettingsF.InsiderSelect.Enabled = SettingsF.InsiderToggle.Checked;
 
-            MainForm.Instance.Text = CurrentSettings.InsiderMode ? "Onix Launcher (Insider Mode)" : "Onix Launcher";
+            MainForm.Instance.Text = CurrentSettings.InsiderMode ? "Loholism Launcher (Insider Mode)" : "Loholism Launcher";
             MainForm.Instance.TitleText.Text = MainForm.Instance.Text;
 
             SelectedPath = CurrentSettings.DLLPath;
