@@ -24,7 +24,7 @@ namespace OnixLauncher
                 Assets = new Assets
                 {
                     LargeImageKey = GetLargeImage(),
-                    LargeImageText = "Onix Launcher"
+                    LargeImageText = "Loholism Launcher"
                 },
                 Timestamps = new Timestamps
                 {
@@ -43,7 +43,7 @@ namespace OnixLauncher
             // Moved it to a variable so it can have support for more seasons later
             // You can use Dec-Feb for winter logo, Mar-Jun for spring logo, christmas,kwanza, hanukkah, etc
             string largeImgKey = "onix";
-            if (DateTime.Today.Month == 10) largeImgKey = "onix-halloween";
+            if (DateTime.Today.Month == 10) largeImgKey = "loh-halloween";
 
             return largeImgKey;
         }
@@ -71,7 +71,7 @@ namespace OnixLauncher
                 {
 
                     LargeImageKey = GetLargeImage(),
-                    LargeImageText = "Onix Client",
+                    LargeImageText = "Loholism Client",
                     SmallImageKey = smallimage,
                     SmallImageText = version
                 },
@@ -100,7 +100,7 @@ namespace OnixLauncher
                 Assets = new Assets
                 {
                     LargeImageKey = GetLargeImage(),
-                    LargeImageText = "Onix Launcher"
+                    LargeImageText = "Loholism Launcher"
                 },
                 Timestamps = new Timestamps
                 {
