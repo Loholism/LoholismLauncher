@@ -84,7 +84,7 @@ namespace OnixLauncher
             this.TitleText.Name = "TitleText";
             this.TitleText.Size = new System.Drawing.Size(165, 14);
             this.TitleText.TabIndex = 3;
-            this.TitleText.Text = "Onix Launcher";
+            this.TitleText.Text = "Loholism Launcher";
             this.TitleText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.TitleText.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Drag);
             // 
@@ -194,7 +194,7 @@ namespace OnixLauncher
             this.OnixTitle.Name = "OnixTitle";
             this.OnixTitle.Size = new System.Drawing.Size(290, 63);
             this.OnixTitle.TabIndex = 4;
-            this.OnixTitle.Text = "Onix Client";
+            this.OnixTitle.Text = "Loholism Client";
             // 
             // LaunchProgress
             // 
@@ -359,7 +359,7 @@ namespace OnixLauncher
             this.Opacity = 0D;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Onix Launcher";
+            this.Text = "Loholism Launcher";
             this.TitleBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.OnixLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BigOnixLogo)).EndInit();
