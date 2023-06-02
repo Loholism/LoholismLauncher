@@ -29,7 +29,7 @@ namespace OnixLauncher
 
             if (Utils.SelectedPath == "no file" && Utils.CurrentSettings.InsiderMode)
             {
-                Utils.ShowMessage("Insider Mode", "Select an Onix Client DLL first!\n  "); // newline and spaces for idk
+                Utils.ShowMessage("Insider Mode", "Select an Loholism Client DLL first!\n  "); // newline and spaces for idk
                 return;
             }
 
@@ -109,7 +109,7 @@ namespace OnixLauncher
                             LaunchButton.Enabled = true;
                             LaunchProgress.Visible = false;
                             Utils.ShowMessage("Unsupported Version",
-                                "Your version (" + version + ") is not supported by Onix Client.");
+                                "Your version (" + version + ") is not supported by Loholism Client.");
                         }
                         else
                         {
@@ -175,7 +175,7 @@ namespace OnixLauncher
                             Log.Write("Launcher couldn't detect the game, either it's not installed or the user has a cracked version");
                             // wtf the game not installed
                             Utils.ShowMessage("Couldn't detect Minecraft",
-                                "Keep in mind that Onix Client doesn't work with cracked versions, nor does it get you the game for free. \n\n" +
+                                "Keep in mind that Loholism Client doesn't work with cracked versions, nor does it get you the game for free. \n\n" +
                                 "If this isn't the case, the launcher might be sandboxed. Turn off your antivirus.");
                             LaunchButton.Enabled = true;
                             LaunchProgress.Visible = false;
@@ -223,7 +223,7 @@ namespace OnixLauncher
             catch (Exception ex)
             {
                 Log.Write("We ran into a problem while launching: " + ex.Message);
-                Utils.ShowMessage("Launch Error", $"Failed to launch Onix Client. Check the logs for info. \n({Log.LogPath})");
+                Utils.ShowMessage("Launch Error", $"Failed to launch Loholism Client. Check the logs for info. \n({Log.LogPath})");
             }
         }
     }
